@@ -15,6 +15,11 @@
 	--white: #fff;
 }
 
+::selection {
+	color: var(--white);
+	background-color: var(--spanish-orange);
+}
+
 body {
 	font-family: 'Barlow', sans-serif;
 	font-size: 16px;
@@ -99,6 +104,7 @@ img:hover {
 	border-radius: 8px;
 	font-weight: 700;
 	text-transform: uppercase;
+	transition: color 400ms cubic-bezier(0.165, 0.84, 0.44, 1), background 400ms cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
 .button--primary {
@@ -106,12 +112,22 @@ img:hover {
 	background-color: var(--spanish-orange);
 }
 
+.button--primary:hover {
+	background-color: var(--atomic-orange);
+}
+
 .button--secondary {
 	color: var(--oxford-blue);
 	background-color: var(--alice-blue);
 }
 
+.button--secondary:hover {
+	color: var(--white);
+	background-color: var(--oxford-blue);
+}
+
 .button--off {
+	cursor: inherit;
 	padding: 0;
 	color: var(--shadow-blue);
 	background-color: var(--white);
@@ -144,6 +160,11 @@ img:hover {
 .info {
 	overflow: hidden;
 	text-align: center;
+}
+
+.info .col-1 {
+	overflow: hidden;
+    border-radius: 20px;
 }
 
 .info .col-1 > picture {
