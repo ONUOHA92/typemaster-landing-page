@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://ccreusat-typemaster-landing.vercel.app/assets/solution.jpg)
+![](https://ccreusat-typemaster-landing.vercel.app/assets/solution.png)
 
 ### Links
 
