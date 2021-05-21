@@ -82,6 +82,7 @@ picture {
 	display: block;
 	overflow: hidden;
 	border-radius: 20px;
+	-webkit-mask-image: -webkit-radial-gradient(white, black);
 }
 
 img {
