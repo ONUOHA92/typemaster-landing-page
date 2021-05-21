@@ -50,13 +50,7 @@ Users should be able to:
 
 ### What I learned
 
-Use of the img srcset and picture tag to change image source. Wanted to have both solutions as a reminder.
-
-```html
-<img
-	srcset="/assets/mobile/image-keyboard.jpg 744w, /assets/tablet/image-keyboard.jpg 956w, /assets/desktop/image-keyboard.jpg 1080w"
-	src="/assets/mobile/image-keyboard.jpg" alt="keyboard">
-```
+Use of the picture tag to change image source. 
 
 ```html
 <picture>
