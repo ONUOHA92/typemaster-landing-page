@@ -26,16 +26,17 @@ This is a solution to the [Typemaster pre-launch landing page challenge on Front
 
 Users should be able to:
 
--
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
 
 ### Screenshot
 
-![](./assets/solution.jpg)
+![](https://ccreusat-typemaster-landing.vercel.app/assets/solution.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://ccreusat-typemaster-landing.vercel.app/)
+- Solution URL: [Solution page](https://www.frontendmentor.io/solutions/typemaster-landing-page-with-css-grid-and-flexbox-Jw8C-0urY)
+- Live Site URL: [Live site](https://ccreusat-typemaster-landing.vercel.app/)
 
 ## My process
 
